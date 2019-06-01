@@ -1,0 +1,106 @@
+body{
+	width:1024px;
+	text-align: center;
+	border: 1px solid black;
+	margin: 0 auto;
+
+}
+.header,.slogan,.slider,.new,.ads,.footer{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid black;
+}
+.logo{
+	width: 340px;
+	float: left;
+	border-right: 1px solid black;
+}
+.slogan{
+	width: 681px;
+	float: left;
+}
+.new1,.new2{
+	width: 340px;
+	border-right: 1px solid black; 
+	float: left;
+}
+.new3{
+	width: 340px;
+	float: left;
+}
+.ads1,.ads2{
+	width: 511px; 
+	float: left;
+}
+.ads1{
+	border-right: 1px solid black;
+}
+.content{
+	height: 100px;
+	line-height: 100px;
+	border-bottom: 1px solid black;
+}
+.footer1,.footer2{
+	width: 511px; 
+	float: left;
+}
+.footer1{
+	border-right: 1px solid black;
+}
+.footer{
+	border-bottom: none;
+}
+@media only screen and (max-width: 768px){
+    .logo,.slogan,.new1,.new2{
+        width: 49%;
+        border-bottom: 1px solid black;
+    }
+    .new2{
+    	border-right: none;
+    	border-bottom: 1px solid black;
+    }
+    .new3{
+	float: none;
+	width: 100%;
+	}
+	.new{
+	height: 100px;
+	border-bottom: 1px solid black;
+	}
+	.ads1{
+		width: 100%;
+	}
+	.ads2{
+		display: none;
+	}
+}
+@media only screen and ( max-width: 480px){
+	.logo,.slogan{
+		width: 100%;
+		float:none;
+	}
+	.logo,.new1,.footer1{
+		border-bottom: 1px solid black;
+	}
+	.header,.footer,.new{
+		height:100px;
+	}
+	.slider,.new3{
+		display: none;
+	}
+	.new1,.new2{
+		float: none;
+		width: 100%;
+	}
+	.content{
+		height: 50px;
+		line-height: 50px;
+	}
+	.footer1,.footer2{
+		float: none;
+		width: 100%;
+	}
+	.slogan,.new2,.content,.footer1{
+		border-top: 1px solid black;
+	}
+}

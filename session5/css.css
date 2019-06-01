@@ -1,0 +1,15 @@
+body{
+	margin: 30px auto;	
+}
+label{
+	float:left;
+	width: 5em;
+	text-align: right;
+}
+input{
+	margin-left: 1em;
+	margin-bottom: .5em;
+}
+#button{
+	margin-left: 7em;
+}

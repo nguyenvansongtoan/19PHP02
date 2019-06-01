@@ -1,0 +1,37 @@
+.contanner{
+	margin:20px;
+}
+.tieude{
+	text-shadow: 2px 2px 2px black;
+	font-size: 30px;
+	text-align: center;
+	color: yellow;
+}
+p{
+	font-family: Arial;
+}
+.tieude1{
+	color : green;
+	font-size: 20px;
+	text-align: center;
+}
+.tieude2{
+	font-size: 30px;
+	font-family: fatansy;
+	font-weight: bold;
+}
+.noidung{
+	font-size: 20px;
+
+}
+span{
+	color: green;
+	text-decoration: underline;
+}
+.tieude3{
+	font-size: 20px;
+	font-weight: bold;
+}
+.tieude4{
+	text-indent: 20px; 
+}

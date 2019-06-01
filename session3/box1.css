@@ -1,0 +1,23 @@
+#box0{
+	border : 5px dotted black;
+	padding: 20px;
+}
+#box1{
+	border: solid black	;
+	padding: 20px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+#box2{
+	border : 5px dotted black;
+	text-align: left;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+#box3{
+	border : 5px dotted black ;
+	padding-bottom: 30px ;
+	text-align: left;
+}

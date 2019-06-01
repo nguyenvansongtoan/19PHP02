@@ -1,0 +1,42 @@
+.body{
+	border: 5px solid black;
+	width: 700px;
+	height:500px;
+	border-radius: 20px;	
+}
+body{
+	background-image: linear-gradient (yellow,green); 
+}
+.tieude{
+	text-shadow: 2px 2px 2px black;
+	font-size: 30px;
+	color: yellow;
+}
+p{
+	font-family: Arial;
+}
+.tieude1{
+	color : green;
+	font-size: 20px;
+	
+}
+.tieude2{
+	font-size: 30px;
+	font-family: fatansy;
+	font-weight: bold;
+}
+.noidung{
+	font-size: 20px;
+
+}
+span{
+	color: green;
+	text-decoration: underline;
+}
+.tieude3{
+	font-size: 20px;
+	font-weight: bold;
+}
+.tieude4{
+	text-indent: 20px; 
+}
